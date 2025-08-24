@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Perfect",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Ed_Sheeran_Perfect_Single_cover.jpg",
+    "description": "A romantic ballad by Ed Sheeran from his third studio album ÷ (2017)."
+  },
+  {
+    "title": "Blinding Lights",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Weeknd_-_Blinding_Lights.png",
+    "description": "A hit single by The Weeknd, released in 2019, known for its 80s synthwave vibe."
+  },
+  {
+    "title": "Levitating",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Dua_Lipa_-_Levitating.png",
+    "description": "A disco-pop track by Dua Lipa from her 2020 album Future Nostalgia."
+  },
+  {
+    "title": "Shape of You",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/4/45/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png",
+    "description": "One of the best-selling singles of all time by Ed Sheeran, blending pop and dancehall."
+  },
+  {
+    "title": "Stay",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png",
+    "description": "A collaboration between The Kid LAROI and Justin Bieber, released in 2021."
+  }
+]

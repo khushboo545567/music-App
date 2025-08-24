@@ -8,32 +8,27 @@
     <link href="output.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="main" class="bg-[#000000] min-h-screen">
+    <div class="bg-[#000000] min-h-screen">
       <div class="pt-5 flex gap-4 justify-center mb-16">
         <input
           type="text"
           placeholder="What do you want to play ?"
           class="px-8 py-2 rounded-full"
+          id="SongInput"
         />
-        <button class="bg-[#F0F0F0] px-6 py-2 rounded-full">Search</button>
+        <button class="bg-[#F0F0F0] px-6 py-2 rounded-full" id="searchBtn">
+          Search
+        </button>
       </div>
-      <div class="hidden">
+      <div class="" id="tranding_songs">
         <div>
-          <h1 class="text-white text-4xl font-bold text-center mb-8">
-            Tranding Music
+          <h1
+            class="text-white text-4xl font-bold text-center mb-8"
+            id="Tranding_head"
+          >
+            🎶 Tranding Music
           </h1>
-          <ul class="flex px-10">
-            <li
-              class="text-white text-md p-5 bg-[#121212] rounded-md hover:bg-[#1F1F1F]"
-            >
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXReZA4eI4NPrqEjmUYX7xevcRTJyA_iRAVw&s"
-                alt=""
-                class="rounded-md"
-              />
-              <p>title</p>
-              <p>title</p>
-            </li>
+          <ul class="flex px-10" id="trandingList">
             <li
               class="text-white text-md p-5 bg-[#121212] rounded-md hover:bg-[#1F1F1F]"
             >
@@ -48,63 +43,38 @@
           </ul>
         </div>
       </div>
-      <div class="bg-[#121212] text-white mx-10 p-6 rounded-md">
+      <div class="bg-[#121212] text-white mx-10 p-6 rounded-md" id="orgSongs">
         <div class="flex gap-6 items-center mb-3">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXReZA4eI4NPrqEjmUYX7xevcRTJyA_iRAVw&s"
-            alt=""
-            class="rounded-md"
-          />
+          <img src="" alt="" class="" id="img_Song" />
           <div>
-            <p class="text-3xl font-bold pb-3">Tranding valantine hits</p>
+            <p class="text-2xl font-bold pb-3" id="title_main"></p>
+            <p class="text-xl font-bold pb-3" id="description"></p>
 
             <button
               class="bg-[#F0F0F0] text-black w-12 h-12 flex items-center justify-center rounded-full"
+              id="play"
             >
               play
             </button>
             <button
               class="bg-[#F0F0F0] text-black w-12 h-12 flex items-center justify-center rounded-full hidden"
+              id="pause"
             >
               pause
             </button>
           </div>
         </div>
         <hr class="border-gray-300" />
-        <ol class="text-white">
-          <li
-            class="text-white flex gap-4 items-center p-5 bg-[#121212] rounded-md cursor-pointer"
-          >
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXReZA4eI4NPrqEjmUYX7xevcRTJyA_iRAVw&s"
-              alt=""
-              class="rounded-md w-[50px] h-[50px]"
-            />
-            <p>title</p>
-            <p>title</p>
-          </li>
-          <li
-            class="text-white flex gap-4 items-center p-5 bg-[#121212] rounded-md cursor-pointer"
-          >
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXReZA4eI4NPrqEjmUYX7xevcRTJyA_iRAVw&s"
-              alt=""
-              class="rounded-md w-[50px] h-[50px]"
-            />
-            <p>title</p>
-            <p>title</p>
-          </li>
-          <li
-            class="text-white flex gap-4 items-center p-5 bg-[#121212] rounded-md cursor-pointer"
-          >
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXReZA4eI4NPrqEjmUYX7xevcRTJyA_iRAVw&s"
-              alt=""
-              class="rounded-md w-[50px] h-[50px]"
-            />
-            <p>title</p>
-            <p>title</p>
-          </li>
+        <div class="mb-4">
+          <iframe
+            id="youtubePlayer"
+            width="0"
+            height="0"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+          ></iframe>
+        </div>
+        <ol class="text-white" id="songList">
           <li
             class="text-white flex gap-4 items-center p-5 bg-[#121212] rounded-md cursor-pointer"
           >
